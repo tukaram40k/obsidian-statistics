@@ -76,7 +76,6 @@ def get_productivity_pie_chart(notes, labels, colors):
     plt.legend()
     plt.savefig(os.path.join(IMAGE_FOLDER, "productivity_pie_chart.png"))
 
-# TODO:
 # get activities bar chart
 def get_activities_bar_chart(notes, colors):
     labels = []
@@ -106,7 +105,10 @@ def get_activities_bar_chart(notes, colors):
     plt.ylabel('Count')
     plt.tight_layout()
     plt.savefig(os.path.join(IMAGE_FOLDER, "activities_bar_chart.png"))
+
+# TODO:
 # sort notes by date properly
+# add linear regression to mood graph
 
 
 
